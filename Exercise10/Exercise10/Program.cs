@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //Problem 1
             Console.WriteLine("**************");
             Console.WriteLine("Menu: ");
             Console.WriteLine("1 - New Game ");
@@ -13,7 +14,7 @@
             Console.WriteLine("**************");
             int gameMenu = int.Parse(Console.ReadLine());
 
-            while (gameMenu >= 1 || gameMenu <= 4)
+            while (gameMenu < 4)
             {
                 if (gameMenu == 1)
                 {
@@ -40,8 +41,16 @@
                 Console.WriteLine("3 - Options ");
                 Console.WriteLine("4 - Quit ");
                 Console.WriteLine("**************");
-                int gameMenu2 = int.Parse(Console.ReadLine());
+                gameMenu = int.Parse(Console.ReadLine());
             } // end of while
+
+            //Problem 2
+
+
+            while ( 
+            {
+
+            } //end of 2nd while
         }
     }
 }
