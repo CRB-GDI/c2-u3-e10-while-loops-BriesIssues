@@ -43,14 +43,6 @@
                 Console.WriteLine("**************");
                 gameMenu = int.Parse(Console.ReadLine());
             } // end of while
-
-            //Problem 2
-
-
-            while ( 
-            {
-
-            } //end of 2nd while
         }
     }
 }
